@@ -1,0 +1,37 @@
+{
+  "name": "dao",
+  "description": "OPENi Cloudlet Platform piwik worker",
+  "version": "0.1.0",
+  "homepage": "http://www.openi-ict.eu/",
+  "author": {
+    "name": "dmccarthy",
+    "email": "dmccarthy@tssg.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:OPENi-ict/piwik-worker.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/main.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "dependencies": {
+    "async": "",
+    "couchbase": "2.0.8",
+    "tracklet": "OPENi-ict/tracklet",
+    "m2nodehandler": "OPENi-ict/m2nodehandler",
+    "zmq": "~2.5.1"
+  },
+  "devDependencies": {
+  },
+  "keywords": []
+}
