@@ -1,5 +1,5 @@
 {
-  "name": "dao",
+  "name": "tracklet-worker",
   "description": "OPENi Cloudlet Platform piwik worker",
   "version": "0.1.0",
   "homepage": "http://www.openi-ict.eu/",
